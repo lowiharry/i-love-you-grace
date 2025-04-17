@@ -1,0 +1,186 @@
+.mainpage {
+    display: flex;
+}
+.sidenavbar {
+    width: 30%;
+    padding: 10px 0;
+    
+}
+.navlogosection {
+    display: flex;
+}
+.logoicon {
+    margin-top: 35px;
+    margin-left: 20px;
+    display: none;
+}
+.Logo {
+    text-align: center;
+    margin-left: 90px;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+.Menu{
+    text-decoration-color: rgb(87, 81, 81);
+    margin-left: 50px;
+    font-size: 25px;
+    margin-bottom: 80px;
+    color: gray;
+}
+.menubutton {
+    height: 20px;
+    width: 100px;
+    text-decoration: none;
+}
+.menucolor{
+    color: gray;
+}
+.menudrop{
+    display: flex;
+}
+.menudroptwo{
+    display: flex;
+    margin-left: -2px;
+}
+.dropdownsign{
+    margin-left: 5px;
+    color: black;
+}
+.dropdownsigntwo{
+    margin-top: 2px;
+    margin-right: 20px;
+    color: black;
+}
+.otherMenu{
+    margin-left: 50px;
+    font-size: 22px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul { 
+    list-style-type: none;
+}
+li{
+    margin-bottom: 20px;
+}
+/* Content Body */
+/* Header */
+.contentbody {
+    width: 70%;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.pagetitle {
+    font-size: 20px;
+    margin: 10px 20px;
+}
+.icons {
+    margin: 45px 50px;
+    font-size: 20px;
+}
+/* Banner */
+.bannersection {
+    background-image: url(../Image/Jeans/tuananh-blue-h6PKsr0wDH4-unsplash.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: -30px;
+}
+.banner {
+    margin-left:  20px;
+    padding-top: 30px;
+}
+.shopnowbanner{
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+/* Item Section */
+.rowofitems {
+    display: flex;
+    justify-content: space-between;
+}
+.newsign {
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    margin-top: -0.5px;
+}
+.buynowsignbut {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 125px;
+    margin-left: 65px;
+}
+.buynowsignlogo {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+/* Subscription section */
+#Subscription {
+    background-color: black;
+    padding: 10px 0 20px 10px ;
+}
+#email {
+    margin: 10px 0;
+    width: 97%;
+    height: 2.5%;
+    font-size: 20px;
+    color: gray;
+}
+/* footer section */
+.footersection {
+    display: flex;
+    justify-content: space-between;
+}
+#contact{
+    text-align: center;
+}
+.contactdetails {
+    text-align: center;
+    margin-left: 70px;
+}
+#name{
+    width: 150%;
+    height: 2%;
+}
+.About {
+    text-align: center;
+}
+.aboutcontent{
+    margin-left: -40;
+    
+}
+.Store {
+    margin-right: 50px;
+    margin-left: -30px;
+}
+.storecontent {
+    margin-left: -40px;
+}
+.location {
+    display: flex;
+}
+.storedetails {
+    margin-top: -15.9px;
+    margin-left: 10px;
+}
+.storeicones {
+    display: flex;
+}
